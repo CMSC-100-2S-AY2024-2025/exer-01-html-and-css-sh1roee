@@ -146,17 +146,28 @@ nav ul li a:hover {
     display: inline-block;
 }
 
-/* Footer */
+/* footer */
 footer {
     background: black;
     color: white;
     padding: 30px;
     margin-top: 50px;
-    text-align: center;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
 
+/* footer logo */
 .footer-logo img {
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
+}
+
+/* footer text */
+.footer-text {
+    display: flex;
+    flex-direction: column;
 }
