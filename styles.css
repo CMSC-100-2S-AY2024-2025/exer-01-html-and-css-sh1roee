@@ -3,7 +3,7 @@ body {
     font-family: 'Roboto';
     margin: 0;
     padding: 0;
-    background: url('galaxy.jpg') no-repeat center center fixed;
+    background: url('./images/galaxy.jpg') no-repeat center center fixed;
     background-size: cover;
     color: white;
     text-align: center;
@@ -69,7 +69,7 @@ nav ul li a:hover {
     text-align: left;
     gap: 40px;
     padding: 80px 40px;
-    background-image: url('background.jpg'); 
+    background-image: url('./images/background.jpg'); 
     background-size: cover;
     background-position: center;
 }
