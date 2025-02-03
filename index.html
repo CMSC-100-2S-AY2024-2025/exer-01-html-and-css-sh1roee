@@ -3,16 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>James Tadeja</title>
     <link rel="stylesheet" href="./styles.css">
+
+    <!--web icon-->
+    <link rel="icon" href="./kikyo.jpg" type="image/icon type">
+
+    <!--imported google font-->
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+</style>
 </head>
 <body>
+
+    <!--header section-->
     <header>
         <div class="logo">
             <img src="kikyo.jpg" alt="Logo">
         </div>
         <nav>
             <ul>
+                <!-- navigation bar -->
                 <li><a href="#about">About Me</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
@@ -21,36 +31,63 @@
         </nav>
     </header>
 
-    <div class="featured" id="featured">
-        <h2>Featured Photo</h2>
-        <img src="mtfuji.jpg" alt="Featured Photo" width = "600">
+    <!-- portfolio section -->
+    <div class="portfolio">
+        <div class="portfolio-content">
+            <h1>Welcome to My Portfolio!</h1>
+            <p>A 20-year-old <b>BS Computer Science</b> student based in the University of the Philippines Los Banos.</p>
+        </div>
+        <div class="featured">
+            <img src="featuredphoto.jpg" alt="Featured Photo">
+        </div>
     </div>
 
-    <div class="projects">
+    <!-- projects section -->
+    <div class="projects" id="projects">
         <h2>Previous Projects</h2>
         <div class="project-gallery">
+            <!-- project images -->
             <img src="project1.jpg" alt="Project 1">
             <img src="project2.jpg" alt="Project 2">
             <img src="project3.jpg" alt="Project 3">
             <img src="project4.jpg" alt="Project 4">
-        </div>        
+        </div>
     </div>
         
-    <div class="skills" id="skills">
-        <h2>Skills</h2>
-        <p>Proficient in HTML, CSS, Python, Java, and C.</p>
+    <!-- skills and about section -->
+    <div class="container">
+        <!-- skills -->
+        <div class="skills" id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Java</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>C</li>
+                <li>Git</li>
+                <li>Github</li>
+            </ul>
+        </div>
+        
+        <!-- autobiography section -->
+        <div class="about" id="about">
+            <h2>Autobiography</h2>
+            <p>My name is <b>James Andrei G. Tadeja</b>. An aspiring Data Security that casually does programming. 
+            I am currently a 2nd year college student under the Bachelor of Science in Computer Science (BSCS) in UPLB. 
+            I do a lot of stuff, exploring different kinds of experiences to life. When I'm not writing code, I usually try
+            to binge watch dramas.</p>
+        </div>
     </div>
 
-    <div class="about" id="about">
-        <h2>Autobiography</h2>
-        <p>I am a 2nd year Computer Science student who's proficient in Back-End Programming and trying to learn Web Programming</p>
-    </div>
-
+    <!-- footer section -->
     <footer>
         <div class="footer-logo"><img src="kikyo.jpg" alt="Logo"></div>
-        <p>Contact: jgtadeja1@up.edu.ph</p>
-        <p>© 2025 My Portfolio | <a href="#top">Back to Top</a></p>
+        <p>Email: jgtadeja1@up.edu.ph</p>
+        <p>Address: 566R+278, Getulio B. Viado, Los Baños, Laguna</p>
+        <p>Phone: 09670059410</p>
+        <p>© 2025 James Tadeja | <a href="#top">Back to Top</a></p>
     </footer>
-    
 </body>
 </html>
