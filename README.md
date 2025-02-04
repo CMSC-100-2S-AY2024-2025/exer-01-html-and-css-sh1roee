@@ -3,8 +3,8 @@
 ## CMSC 100 U-1L Exercise 2: HTML & CSS
 
 ## Developer Details
-Name: James Andrei G. Tadeja
-Degree Program: BS Computer Science
+Name: James Andrei G. Tadeja <br>
+Degree Program: BS Computer Science 
 
 ## Live Website Link
 Live Website Link: https://cmsc-100-2s-ay2024-2025.github.io/exer-01-html-and-css-sh1roee/
@@ -16,5 +16,5 @@ Live Website Link: https://cmsc-100-2s-ay2024-2025.github.io/exer-01-html-and-cs
 4. Go back to Settings, your live website link should be ready to go. 
 
 ## What are your key takeaways from this exercise:
-My key takeaways from this exercise is that although it is fun building your own website, it is time consuming as you would use trial and error method to get the correct format and design you're looking for. 
+My key takeaways from this exercise is that although it is fun building your own website, it is time consuming as you would use trial and error method to get the correct stylings and design you're looking for. 
 
